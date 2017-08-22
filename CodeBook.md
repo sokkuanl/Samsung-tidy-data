@@ -1,98 +1,40 @@
-## Getting and Cleaning Data Project
+## Getting and Cleaning Data - Course Project
 
 This code book summarizes the resulting data fields in tidydata.txt.
 
-###Identifiers
+### Identifiers
 
-* subjectID - The ID of the test subject
 * activityID - The type of activity performed when the corresponding measurements were taken
+* subjectID - The ID of the test subject
 
-###Measurements
 
-tBodyAccMeanX
-tBodyAccMeanY
-tBodyAccMeanZ
-tBodyAccStdX
-tBodyAccStdY
-tBodyAccStdZ
-tGravityAccMeanX
-tGravityAccMeanY
-tGravityAccMeanZ
-tGravityAccStdX
-tGravityAccStdY
-tGravityAccStdZ
-tBodyAccJerkMeanX
-tBodyAccJerkMeanY
-tBodyAccJerkMeanZ
-tBodyAccJerkStdX
-tBodyAccJerkStdY
-tBodyAccJerkStdZ
-tBodyGyroMeanX
-tBodyGyroMeanY
-tBodyGyroMeanZ
-tBodyGyroStdX
-tBodyGyroStdY
-tBodyGyroStdZ
-tBodyGyroJerkMeanX
-tBodyGyroJerkMeanY
-tBodyGyroJerkMeanZ
-tBodyGyroJerkStdX
-tBodyGyroJerkStdY
-tBodyGyroJerkStdZ
-tBodyAccMagMean
-tBodyAccMagStd
-tGravityAccMagMean
-tGravityAccMagStd
-tBodyAccJerkMagMean
-tBodyAccJerkMagStd
-tBodyGyroMagMean
-tBodyGyroMagStd
-tBodyGyroJerkMagMean
-tBodyGyroJerkMagStd
-fBodyAccMeanX
-fBodyAccMeanY
-fBodyAccMeanZ
-fBodyAccStdX
-fBodyAccStdY
-fBodyAccStdZ
-fBodyAccMeanFreqX
-fBodyAccMeanFreqY
-fBodyAccMeanFreqZ
-fBodyAccJerkMeanX
-fBodyAccJerkMeanY
-fBodyAccJerkMeanZ
-fBodyAccJerkStdX
-fBodyAccJerkStdY
-fBodyAccJerkStdZ
-fBodyAccJerkMeanFreqX
-fBodyAccJerkMeanFreqY
-fBodyAccJerkMeanFreqZ
-fBodyGyroMeanX
-fBodyGyroMeanY
-fBodyGyroMeanZ
-fBodyGyroStdX
-fBodyGyroStdY
-fBodyGyroStdZ
-fBodyGyroMeanFreqX
-fBodyGyroMeanFreqY
-fBodyGyroMeanFreqZ
-fBodyAccMagMean
-fBodyAccMagStd
-fBodyAccMagMeanFreq
-fBodyBodyAccJerkMagMean
-fBodyBodyAccJerkMagStd
-fBodyBodyAccJerkMagMeanFreq
-fBodyBodyGyroMagMean
-fBodyBodyGyroMagStd
-fBodyBodyGyroMagMeanFreq
-fBodyBodyGyroJerkMagMean
-fBodyBodyGyroJerkMagStd
-fBodyBodyGyroJerkMagMeanFreq
-Activity Labels
+### Measurements
 
-WALKING (value 1): subject was walking during the test
-WALKING_UPSTAIRS (value 2): subject was walking up a staircase during the test
-WALKING_DOWNSTAIRS (value 3): subject was walking down a staircase during the test
-SITTING (value 4): subject was sitting during the test
-STANDING (value 5): subject was standing during the test
-LAYING (value 6): subject was laying down during the test
+* timeBodyAccMag-mean
+* timeBodyAccMag-std
+* timeGravityAccMag-mean
+* timeGravityAccMag-std
+* timeBodyAccJerkMag-mean
+* timeBodyAccJerkMag-std
+* timeBodyGyroMag-mean
+* timeBodyGyroMag-std
+* timeBodyGyroJerkMag-mean
+* timeBodyGyroJerkMag-std
+* freqBodyAccMag-mean
+* freqBodyAccMag-std
+* freqBodyBodyAccJerkMag-mean
+* freqBodyBodyAccJerkMag-std
+* freqBodyBodyGyroMag-mean
+* freqBodyBodyGyroMag-std
+* freqBodyBodyGyroJerkMag-mean
+* freqBodyBodyGyroJerkMag-std
+* activityType
+
+### Activity Labels 
+
+* WALKING: subject was walking during the test
+* WALKING_UPSTAIRS: subject was walking up a staircase during the test
+* WALKING_DOWNSTAIRS: subject was walking down a staircase during the test
+* SITTING: subject was sitting during the test
+* STANDING: subject was standing during the test
+* LAYING: subject was laying down during the test
